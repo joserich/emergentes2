@@ -20,12 +20,12 @@
 
 ## Instituciones que requerirían aplicaciones de misión crítica. 
  **Las instituciones que requeririan las aplicaciones de misión critica son:**
- * **Universidades(Repositorio)**, Las universidades necesitan almacenar y procesar gran cantidad de informacion digital sobre investigacion     y produccion academica.
  * **Unidades Educativas**, Para almacenar datos de tanto de estudiantes como usuarios externos y proveer informacion sobre avance academico para cada usuario. Tambien necesita almacenar material digital academico segun a cada grado.
- * **Institutos**, Necesitan generar estadisticas y prover informacion necesaria para que personas con ganas de superarse se registren y usen el sistema.
  * **Bancos electronicos**, necesitan la mayor disponilidad, escalibilidad, y seguridad de la informacion e informatica.
+  * **Universidades(Repositorio)**, Las universidades necesitan almacenar y procesar gran cantidad de informacion digital sobre investigacion     y produccion academica.
  * **Brockers(Plataformas de venta y compra de divisas)**, Estos sistemas necesitan estar en linea las 24 horas y ser escalables a nivel de operaciones transaccionales(compra/venta) de divisas y criptomonedas.
  * **Servicio de reservaciones de buses en linea**.
+  * **Institutos**, Necesitan generar estadisticas y prover informacion necesaria para que personas con ganas de superarse se registren y usen el sistema.
    
 
 ## Diferencias entre la escalabilidad horizontal y escalabilidad vertical

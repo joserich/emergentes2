@@ -1,5 +1,3 @@
-# emergentes2
-## hola a todos soy richard
 # Sistemas empresariales
 ## ¿Que es un sistema empresarial?
 Es un sistema que tiene un impacto muy importante en el funcionamiento de  la organización o negocio y cuya falla traería graves consecuencias. Normalmente que ofrece alta calidad de servicio, gestiona con grandes  volúmenes de datos, disponible de forma continua y es capaz de soportar  cualquier organización grande.

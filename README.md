@@ -64,9 +64,9 @@ Clientes y servidores se comunican intercambiando mensajes individuales (en cont
 
 El comando HTTP Request permite enviar todo tipo de petición HTTP a un URL específico y procesar la respuesta del servidor HTTP.
 ### Ejemplo
- '''C_TEXT($response)
+ ''' C_TEXT($response)
  $body_t:="{record_id:25}"
- $httpStatus_l:=HTTP Request(HTTP DELETE method;"database.example.com";$body_t;$response)'''
+ $httpStatus_l:=HTTP Request(HTTP DELETE method;"database.example.com";$body_t;$response) '''
 
 ## Java EE(Enterprice Edititión)
 

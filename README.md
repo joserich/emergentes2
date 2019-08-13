@@ -24,7 +24,6 @@
  * **Bancos electronicos**, necesitan la mayor disponilidad, escalibilidad, y seguridad de la informacion e informatica.
   * **Universidades(Repositorio)**, Las universidades necesitan almacenar y procesar gran cantidad de informacion digital sobre investigacion     y produccion academica.
  * **Brockers(Plataformas de venta y compra de divisas)**, Estos sistemas necesitan estar en linea las 24 horas y ser escalables a nivel de operaciones transaccionales(compra/venta) de divisas y criptomonedas.
- * **Servicio de reservaciones de buses en linea**.
   * **Institutos**, Necesitan generar estadisticas y prover informacion necesaria para que personas con ganas de superarse se registren y usen el sistema.
    
 
@@ -39,12 +38,11 @@ Debemos entender que cada uno ofrece ventajas y desventajas y no existe uno mejo
 
 ![Escalabilidad Horizontal](https://www.oscarblancarteblog.com/wp-content/uploads/2017/03/escalamiento-vertical.png)
 
+## Servidor
+- Un servidor es una computadora que formando parte de una red provee servicios a otras computadoras denominadas clientes.
+- Algunos servidores comunes son impresion correo fax telefonia **web**¨base de datos **aplicaciones** etc.
 
-# Servidor
-Un servidor es una computadora que formando parte de una red provee servicios 
-a otras computadoras denominadas clientes.
-
-# Que es un servidor Web y que es un servidor de aplicaciones
+## Que es un servidor Web y que es un servidor de aplicaciones
 Un servidor web programa informático que procesa una aplicación del lado del servidor, realizando conexiones bidireccionales o unidireccionales y síncronas o asíncronas con el cliente y generando o cediendo una respuesta en cualquier lenguaje o Aplicación del lado del cliente.
 
 Un servidor de aplicaciones es un dispositivo de software que proporcionan servicios 

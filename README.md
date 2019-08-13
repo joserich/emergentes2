@@ -45,16 +45,16 @@ Debemos entender que cada uno ofrece ventajas y desventajas y no existe uno mejo
 ## Que es un servidor Web y que es un servidor de aplicaciones
 Un servidor web programa informático que procesa una aplicación del lado del servidor, realizando conexiones bidireccionales o unidireccionales y síncronas o asíncronas con el cliente y generando o cediendo una respuesta en cualquier lenguaje o Aplicación del lado del cliente.
 
-Un servidor de aplicaciones es un dispositivo de software que proporcionan servicios 
+- Un servidor de aplicaciones es un dispositivo de software que proporcionan servicios 
 de aplicación a las computadoras cliente.
- Un servidor de aplicaciones generalmente gestiona la mayor
+- Un servidor de aplicaciones generalmente gestiona la mayor
 parte (o la totalidad) de las funciones de la lógica de negocio y acceso a los datos de 
 la aplicación.
- Los beneficios de la aplicación de la tecnología de servidores
+- Los beneficios de la aplicación de la tecnología de servidores
 de aplicación son la centralización y al disminución de la
 complejidad en el desarrollo de aplicaciones
 
-# Protocolo HTTP
+## Protocolo HTTP
 HTTP, de sus siglas en inglés: "Hypertext Transfer Protocol", es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), normalmente un navegador Web. Así, una página web completa resulta de la unión de distintos sub-documentos recibidos, como, por ejemplo: un documento que especifique el estilo de maquetación de la página web (CSS), el texto, las imágenes, vídeos, scripts, etc... 
 ![Grafico protocolo HTTP](https://mdn.mozillademos.org/files/13677/Fetching_a_page.png)
 

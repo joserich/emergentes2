@@ -63,10 +63,16 @@ Clientes y servidores se comunican intercambiando mensajes individuales (en cont
 ## Explique los elementos importantes de REQUEST en HTTP
 
 El comando HTTP Request permite enviar todo tipo de petición HTTP a un URL específico y procesar la respuesta del servidor HTTP.
-### Ejemplo
- ''' C_TEXT($response)
- $body_t:="{record_id:25}"
- $httpStatus_l:=HTTP Request(HTTP DELETE method;"database.example.com";$body_t;$response) '''
+
+Aunque hay varios métodos de HTTP para recuperar datos de un servidor, las dos más utilizados son GET y POST.
+
+El método GET solicita un recurso del servidor indicado en el campo URI. Si la URI apunta a una base de datos de producción de recursos como un servlet, los datos serán devueltos dentro del mensaje de respuesta. 
+
+## Explique los elementos importantes de RESPONSE en HTTP
+
+Una vez que el servidor ha recibido y procesado la solicitud, éste debe devolver un mensaje de respuesta HTTP hacia el cliente. El mensaje de respuesta se compone de una línea de estado y cero o más campos de cabecera, seguido por una línea vacía. También puede tener opcionalmente un cuerpo del mensaje.
+
+La primera línea del mensaje de respuesta HTTP que se conoce como la línea de estado. Se compone de HTTP versión del protocolo que se ajusta a la respuesta, seguida por un código numérico y su estatuto de texto explicación.
 
 ## Java EE(Enterprice Edititión)
 

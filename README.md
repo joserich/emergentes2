@@ -60,16 +60,13 @@ HTTP, de sus siglas en inglés: "Hypertext Transfer Protocol", es el nombre de u
 
 Clientes y servidores se comunican intercambiando mensajes individuales (en contraposición a las comunicaciones que utilizan flujos continuos de datos). Los mensajes que envía el cliente, normalmente un navegador Web, se llaman peticiones, y los mensajes enviados por el servidor se llaman respuestas.
 
-## Las peticiones y respuestas HTTP, comparten una estructura similar, compuesta de:
+## Explique los elementos importantes de REQUEST en HTTP
 
-1. Una línea de inicio ('start-line' en inglés) describiendo la petición a ser implementada, o su estado, sea de éxito o fracaso. Esta línea de comienzo, es siempre una única línea. 
-2. Un grupo opcional de cabeceras HTTP, indicando la petición o describiendo el cuerpo ('body' en inglés) que se incluye en el mensaje. 
-3. Una línea vacía ('empty-line' en inglés) indicando toda la meta-información ha sido enviada.
-6. Un campo de cuerpo de mensaje opcional ('body' en inglés) que lleva los datos asociados con la petición (como contenido de un formulario HTML), o los archivos o documentos asociados a una respuesta (como una página HTML, o un archivo de audio, vídeo ... ) . La presencia del cuerpo y su tamaño es indicada en la línea de inicio y las cabeceras HTTP.
-
-La línea de inicio y las cabeceras HTTP, del mensaje, son conocidas como la cabeza de la peticiones, mientras que su contenido en datos se conoce como el cuerpo del mensaje.
-![Grafico2 protocolo HTTP](https://mdn.mozillademos.org/files/13827/HTTPMsgStructure2.png)
-
+El comando HTTP Request permite enviar todo tipo de petición HTTP a un URL específico y procesar la respuesta del servidor HTTP.
+### Ejemplo
+ '''C_TEXT($response)
+ $body_t:="{record_id:25}"
+ $httpStatus_l:=HTTP Request(HTTP DELETE method;"database.example.com";$body_t;$response)'''
 
 ## Java EE(Enterprice Edititión)
 
